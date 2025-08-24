@@ -10,24 +10,6 @@ Features
 - Live dashboard (Streamlit) with charts and filters
 - REST API (FastAPI) for integration
 
-Project Structure
-ai-surveillance/
-├── surveillance_system.py           # Main surveillance application
-├── system_test.py                   # Complete system test runner
-├── requirements.txt                 # Python dependencies
-├── core/
-│   ├── detector.py                  # YOLOv5 detection engine
-│   ├── tracker.py                   # DeepSORT tracking system
-│   ├── analytics.py                 # Behavior analysis engine
-│   └── recorder.py                  # Event recording system
-├── api/
-│   └── main.py                      # FastAPI server
-├── dashboard/
-│   └── streamlit_dashboard.py       # Monitoring dashboard
-├── recordings/                      # Clips and thumbnails
-├── data/                            # Databases and outputs
-└── models/                          # Model weights
-
 Quick Start
 Complete system test (API + Dashboard + Surveillance):
 python system_test.py
